@@ -1,16 +1,16 @@
 # Read the documentation at https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml/
-service: symfony
+service: bref-bug
 
 provider:
     name: aws
     # The AWS region in which to deploy (us-east-1 is the default)
-    region: us-east-1
+    region: ap-southeast-2
     # The stage of the application, e.g. dev, production, staging… ('dev' is the default)
     stage: dev
     runtime: provided.al2
     environment:
         # Symfony environment variables
-        APP_ENV: prod
+        APP_ENV: dev
 
 plugins:
     - ./vendor/bref/bref
