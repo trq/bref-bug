@@ -42,6 +42,6 @@ package:
         - '!var/**'
         # If you want to include files and folders that are part of excluded folders,
         # add them at the end
-        - 'var/cache/prod/**'
+        - 'var/cache/dev/**'
         - 'public/build/entrypoints.json'
         - 'public/build/manifest.json'
